@@ -5,7 +5,7 @@ export class Todos extends React.Component {
   render() {
     return this.props.todos.map(todo => (
       <div>
-        <TodoItem todo={todo} />
+        <TodoItem key={todo.id} todo={todo} />
       </div>
     ));
   }

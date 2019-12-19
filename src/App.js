@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.sass';
+import Todos from './components/Todos';
 
 class App extends React.Component {
   render () {
     return (
       <div className="App">
-        <h1>App</h1>
+        <Todos/>
       </div>
     );
   }

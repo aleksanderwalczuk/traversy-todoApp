@@ -3,7 +3,7 @@ import './App.sass';
 import Todos from './components/Todos';
 
 class App extends React.Component {
-  
+
   state = {
     todos: [
       {
@@ -26,7 +26,7 @@ class App extends React.Component {
   render () {
     return (
       <div className="App">
-        <Todos/>
+        <Todos todos={this.state.todos}/>
       </div>
     );
   }

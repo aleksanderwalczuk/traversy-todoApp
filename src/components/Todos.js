@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Todos extends React.Component {
+export class Todos extends React.Component {
   render () {
     return (
       <div className="App">

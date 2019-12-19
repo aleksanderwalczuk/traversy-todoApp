@@ -14,7 +14,7 @@ class App extends React.Component {
       {
         id: 2,
         title: 'mop the floor',
-        complete: false
+        complete: true
       },
       {
         id: 3,
@@ -25,7 +25,7 @@ class App extends React.Component {
   }
   render () {
     return (
-      <div className="App">
+      <div>
         <Todos todos={this.state.todos}/>
       </div>
     );
